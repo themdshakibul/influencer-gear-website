@@ -1,5 +1,5 @@
 .navbar-content {
-  padding: 87px 0;
+  padding: 50px 0;
 }
 
 .nav-menu {
@@ -33,4 +33,27 @@
   font-size: 26px;
   font-weight: 500;
   margin-left: 30px;
+}
+
+#banner-container {
+  background: url(../images/Circle\ design.svg);
+  background-position: right bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.nanner-text {
+  max-width: 582px;
+}
+
+.banner-content .nanner-text h1 {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 70px;
+}
+
+.banner-content .nanner-text p {
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 25px;
 }

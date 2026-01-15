@@ -2,15 +2,30 @@
 
 :root {
   --primary-color: rgba(58, 58, 58, 1);
-  --secondary-color: color: rgba(10, 8, 38, 1);
-  --therd-color:  rgba(108, 108, 108, 1);
-
+  --secondary-color: rgba(10, 8, 38, 1);
+  --therd-color: rgba(108, 108, 108, 1);
+  --btn-color: rgba(224, 44, 109, 1);
+  --text-white: rgba(255, 255, 255, 1);
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.btn {
+  padding: 10px 24px;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 41px;
+  background: var(--btn-color);
+  color: var(--text-white);
+}
+
+#banner {
+  padding: 69px 0px;
 }
 
 body {
@@ -25,10 +40,12 @@ h4,
 h5,
 h6 {
   font-size: 20px;
+  color: var(--primary-color);
 }
 
 p {
   font-size: 16px;
+  color: var(--primary-color);
 }
 
 img {
@@ -40,6 +57,12 @@ img {
   width: 85%;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+#center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .inner {
@@ -64,4 +87,3 @@ a {
   text-decoration: none;
   list-style: none;
 }
-
