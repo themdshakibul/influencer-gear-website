@@ -8,6 +8,7 @@
   --text-white: rgba(255, 255, 255, 1);
   --text-card: rgba(0, 0, 0, 0.87);
   --card-text: #80808c;
+  --text-black: rgba(10, 8, 38, 1);
 }
 
 * {
@@ -27,7 +28,9 @@
 }
 
 #banner,
-#brand {
+#brand,
+#card,
+#feature {
   margin-bottom: 100px;
 }
 
