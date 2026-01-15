@@ -42,20 +42,23 @@
   background-repeat: no-repeat;
 }
 
-.nanner-text {
+.banner-text {
   max-width: 582px;
 }
 
-.banner-content .nanner-text h1 {
+.banner-content .banner-text h1 {
   font-size: 52px;
   font-weight: 700;
   line-height: 70px;
 }
 
-.banner-content .nanner-text p {
+.banner-content .banner-text p {
   font-weight: 600;
   line-height: 24px;
   margin-bottom: 25px;
+}
+.banner-content .btn i {
+  margin-left: 10px;
 }
 
 .brand-content {
@@ -168,5 +171,45 @@
   border-radius: 0px;
 }
 
+.feauture-text .btn i {
+  margin-left: 10px;
+}
 
+#footer {
+  background-color: var(--text-black);
+  padding: 50px 0px;
+}
 
+#footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 362px;
+}
+
+.footer-content h2 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 48px;
+  color: var(--text-white);
+}
+
+.footer-content p {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--card-text);
+}
+
+.footer-content .footer-icon {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
