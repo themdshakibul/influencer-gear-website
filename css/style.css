@@ -84,7 +84,7 @@
 }
 
 .card-tiem .card {
-  width: 369px;
+  max-width: 369px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -130,6 +130,13 @@
   justify-content: flex-end;
 }
 
+.seemore-ntn a i {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .feautre-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -167,7 +174,7 @@
 }
 
 .feauture-text .btn {
-  width: 155px;
+  width: 255px;
   border-radius: 0px;
 }
 

@@ -1,6 +1,18 @@
 @media screen and (max-width: 1200px) {
+  .feauture-text {
+    width: 100%;
+    gap: 24px;
+  }
+  .feauture-text .btn {
+    width: 355px;
+    border-radius: 0px;
+  }
 }
 @media screen and (max-width: 1024px) {
+  #banner-container {
+    background-position: right center;
+    background-size: cover;
+  }
 }
 @media screen and (max-width: 992px) {
   .nav-menu {
@@ -9,9 +21,61 @@
   .ul {
     display: none;
   }
+  .feautre-content {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    text-align: center;
+  }
+  .feautre-content .feauture-img img {
+    max-width: 100%;
+  }
+  .feauture-text {
+    width: 100%;
+    text-align: center;
+  }
+  .feauture-text .btn {
+    width: 100%;
+    margin: 0 auto;
+    max-width: max-content;
+  }
 }
 @media screen and (max-width: 768px) {
+  #banner,
+  #brand,
+  #card,
+  #feature {
+    margin-bottom: 60px;
+  }
+  #banner-container .inner {
+    flex-direction: column-reverse;
+  }
+
+  #banner-container {
+    background-position: right top -80px;
+    background-size: contain;
+  }
+  .banner-text {
+    text-align: center;
+  }
+  .banner-content .banner-text h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  #brand-container .inner {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .card-content .card-tiem {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .feauture-text h1 {
+    font-size: 25px;
+    line-height: 35px;
+  }
 }
+
 @media screen and (max-width: 576px) {
   .container {
     width: 96%;
@@ -20,13 +84,58 @@
   .navbar-content .nav-logo h2 {
     font-size: 20px;
   }
-  .inner {
+  #navbar-container .inner {
     gap: 0px;
   }
+  #banner-container {
+    background-position: right top;
+    background-size: contain;
+  }
+
   .nav-icon i {
     margin-left: 10px;
   }
   .ri-search-line {
     display: none;
+  }
+
+  .brand-content {
+    padding: 30px 0px;
+    border: none;
+  }
+  .card-content .card-tiem {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card-tiem .card {
+    max-width: 100%;
+  }
+  .card-content p a {
+    justify-content: center;
+  }
+  .footer-content {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #banner,
+  #brand,
+  #card,
+  #feature {
+    margin-bottom: 40px;
+  }
+  .banner-content .banner-text h1 {
+    font-size: 28px;
+    line-height: 42px;
+  }
+
+  .banner-content .banner-text p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .banner-iamge img {
+    max-width: 302px;
+    height: auto;
   }
 }

@@ -11,6 +11,10 @@
   --text-black: rgba(10, 8, 38, 1);
 }
 
+.hidden {
+  display: none;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -18,7 +22,7 @@
 }
 
 .btn {
-  padding: 10px 24px;
+  padding: 18px 34px;
   border: none;
   font-size: 16px;
   font-weight: 700;
