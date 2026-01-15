@@ -1,0 +1,32 @@
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 992px) {
+  .nav-menu {
+    display: block;
+  }
+  .ul {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 576px) {
+  .container {
+    width: 96%;
+  }
+
+  .navbar-content .nav-logo h2 {
+    font-size: 20px;
+  }
+  .inner {
+    gap: 0px;
+  }
+  .nav-icon i {
+    margin-left: 10px;
+  }
+  .ri-search-line {
+    display: none;
+  }
+}

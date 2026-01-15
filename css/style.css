@@ -1,0 +1,36 @@
+.navbar-content {
+  padding: 87px 0;
+}
+
+.nav-menu {
+  display: none;
+}
+
+.navbar-content .nav-menu i {
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+.navbar-content .nav-logo h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  color: var(--primary-color);
+}
+
+.navbar-content .nav-link ul {
+  gap: 34px;
+}
+
+.navbar-content .nav-link ul li a {
+  font-weight: 600;
+  color: var(--primary-color);
+  line-height: 24px;
+}
+
+.nav-icon i {
+  font-size: 26px;
+  font-weight: 500;
+  margin-left: 30px;
+}

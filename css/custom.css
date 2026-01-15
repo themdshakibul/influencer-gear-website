@@ -1,0 +1,67 @@
+/* custom collor */
+
+:root {
+  --primary-color: rgba(58, 58, 58, 1);
+  --secondary-color: color: rgba(10, 8, 38, 1);
+  --therd-color:  rgba(108, 108, 108, 1);
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  /* font-family: "Inter", sans-serif; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 85%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.paddingX1 {
+  padding: 15px 6px;
+}
+
+.ul {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
