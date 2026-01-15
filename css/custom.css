@@ -6,6 +6,8 @@
   --therd-color: rgba(108, 108, 108, 1);
   --btn-color: rgba(224, 44, 109, 1);
   --text-white: rgba(255, 255, 255, 1);
+  --text-card: rgba(0, 0, 0, 0.87);
+  --card-text: #80808c;
 }
 
 * {
@@ -24,8 +26,9 @@
   color: var(--text-white);
 }
 
-#banner {
-  padding: 69px 0px;
+#banner,
+#brand {
+  margin-bottom: 100px;
 }
 
 body {
